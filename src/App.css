@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.section-main {
+    margin: 0px;
+    height: 1000px;
+    background-image: url("components/images/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-main .hero {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section-main h1 {
+    margin: 0px;
+    font-size: 75px;
+    color: white;
+}
+.section-main .hero-sub {
+    font-weight: 300;
+    font-size: 22px;
+    color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ust-menu {
+    position: fixed;
+    width: -webkit-fill-available;
+    display: inline-grid;
+
+    background-color: #fff;
+}
+.ust-menu-left {
+    justify-items: start;
+    grid-column-end: 1;
+}
+.ust-menu-center {
+    display: flex;
+    margin: auto;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.ust-menu-right {
+    grid-column-start: 5;
+    align-self: center;
+    justify-self: end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ust-menu-item {
+    margin: 10px 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:link,
+.button:visited {
+    background-color: lightblue;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover,
+.button:active {
+    background-color: rgb(140, 205, 227);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+    padding: 80px 70px;
 }
