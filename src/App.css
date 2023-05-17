@@ -1,7 +1,7 @@
-.section-main {
+/* .section-main {
     margin: 0px;
     height: 1000px;
-    background-image: url("components/images/restaurant.jpg");
+    background-image: url("../public/assets/images/restaurant.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -22,19 +22,7 @@
     font-size: 75px;
     color: white;
 }
-.section-main .hero-sub {
-    font-weight: 300;
-    font-size: 22px;
-    color: #fff;
-}
 
-.ust-menu {
-    position: fixed;
-    width: -webkit-fill-available;
-    display: inline-grid;
-
-    background-color: #fff;
-}
 .ust-menu-left {
     justify-items: start;
     grid-column-end: 1;
@@ -70,8 +58,31 @@
 .button:hover,
 .button:active {
     background-color: rgb(140, 205, 227);
-}
+} */
 
 .container {
     padding: 80px 70px;
+}
+.top-menu {
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.header {
+    background-image: url("../public/assets/images/havuz-üstten-görünüm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-sub {
+    font-weight: 300;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    margin-top: 380px;
+    margin-bottom: 0px;
+}
+.left-head {
+    color: white;
+}
+.rezervation-button {
+    text-align: center;
 }
