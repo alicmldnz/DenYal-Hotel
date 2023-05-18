@@ -86,3 +86,22 @@
 .rezervation-button {
     text-align: center;
 }
+.odalarımız-container {
+    height: 950px;
+}
+.odalarımız-baslık {
+    height: 200px;
+}
+.odalarımız-incele {
+    padding: 50px;
+}
+
+.hizmetler {
+    height: 170px;
+}
+.hizmetler-baslık {
+    color: #878f99;
+}
+.hizmetler-metin {
+    padding-bottom: 30px;
+}
