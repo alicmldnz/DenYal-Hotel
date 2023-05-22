@@ -1,12 +1,10 @@
 import React from "react";
-import MenuBar from "../components/Menu/MenuBar";
-
+import MainLayout from "../layout/MainLayout";
 function Odalar() {
     return (
-        <div>
-            <MenuBar></MenuBar>
-            <h1>Odalar</h1>
-        </div>
+        <MainLayout>
+            <h1>Odalarımız</h1>
+        </MainLayout>
     );
 }
 

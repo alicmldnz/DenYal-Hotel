@@ -1,10 +1,13 @@
 import React from "react";
-import MenuBar from "../components/Menu/MenuBar";
+import NavBar from "../components/NavBar/NavBar";
+import BottomLayout from "./BottomLayout";
 
-function MainLayout() {
+function MainLayout({ children }) {
     return (
         <div>
-            <MenuBar></MenuBar>
+            <NavBar></NavBar>
+            <div>{children}</div>
+            <BottomLayout></BottomLayout>
         </div>
     );
 }

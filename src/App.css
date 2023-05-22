@@ -66,8 +66,10 @@
 .top-menu {
     position: fixed;
     width: -webkit-fill-available;
+    top: 0px;
 }
 .header {
+    margin-top: 100px;
     background-image: url("../public/assets/images/havuz-üstten-görünüm.jpg");
     background-repeat: no-repeat;
     background-size: cover;

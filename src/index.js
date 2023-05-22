@@ -6,6 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { MantineProvider } from "@mantine/core";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Odalar from "./pages/Odalar";
+import Kurumsal from "./pages/Kurumsal";
+import Iletisim from "./pages/Iletisim";
+import SpaFitness from "./pages/SpaFitness";
 
 const router = createBrowserRouter([
     {
@@ -13,8 +16,20 @@ const router = createBrowserRouter([
         element: <App />,
     },
     {
-        path: "/Odalar",
+        path: "Odalar",
         element: <Odalar />,
+    },
+    {
+        path: "Kurumsal",
+        element: <Kurumsal />,
+    },
+    {
+        path: "Iletisim",
+        element: <Iletisim />,
+    },
+    {
+        path: "SpaFitness",
+        element: <SpaFitness />,
     },
 ]);
 

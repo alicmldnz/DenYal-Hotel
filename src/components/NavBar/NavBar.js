@@ -1,21 +1,19 @@
 import React from "react";
-import { Center, Stack, Grid, Flex, Button } from "@mantine/core";
+import { Stack, Grid, Flex, Button } from "@mantine/core";
+import { Link } from "react-router-dom";
 
 function MenuBar() {
     return (
         <Stack
-            className="header"
+            className="top-menu"
             justify="flex-start"
             spacing="xs"
-            h={800}
+            h={100}
             sx={(theme) => ({
-                backgroundColor:
-                    theme.colorScheme === "dark"
-                        ? theme.colors.dark[8]
-                        : theme.colors.gray[0],
+                backgroundColor: theme.colors.dark[1],
             })}
         >
-            <Grid className="top-menu">
+            <Grid>
                 <Grid.Col span={2}>
                     <h1 className="left-head">DenYal Hotel</h1>
                 </Grid.Col>
@@ -28,11 +26,11 @@ function MenuBar() {
                         direction="row"
                         wrap="wrap"
                     >
-                        <Button>Ana Sayfa</Button>
-                        <Button>Odalar</Button>
-                        <Button>Spa & Fitness</Button>
-                        <Button>Kurumsal</Button>
-                        <Button>İletişim</Button>
+                        <Link to="/">Ana Sayfa</Link>
+                        <Link to="/Odalar">Odalar</Link>
+                        <Link to="/SpaFitness">Spa & Fitness</Link>
+                        <Link to="/Kurumsal">Kurumsal</Link>
+                        <Link to="/Iletisim">İletişim</Link>
                     </Flex>
                 </Grid.Col>
                 <Grid.Col span={2}>
@@ -49,15 +47,6 @@ function MenuBar() {
                     </Flex>
                 </Grid.Col>
             </Grid>
-            <h3 className="hero-sub">
-                Sadece bir tıkla Bodrum'un güzelliğiyle iç içe keyifli bir
-                tatile başlayın. Kolayca rezervasyonunuzu hemen yapın
-            </h3>
-            <Center maw={400} h={100} mx="auto">
-                <Button radius="lg" size="md">
-                    Hemen Başla
-                </Button>
-            </Center>
         </Stack>
     );
 }
