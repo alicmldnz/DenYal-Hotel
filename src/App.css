@@ -67,10 +67,36 @@
     position: fixed;
     width: -webkit-fill-available;
     top: 0px;
+    background: rgb(166, 234, 235);
+    background: -moz-linear-gradient(
+        0deg,
+        rgba(166, 234, 235, 1) 0%,
+        rgba(230, 125, 247, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        0deg,
+        rgba(166, 234, 235, 1) 0%,
+        rgba(230, 125, 247, 1) 100%
+    );
+    background: linear-gradient(
+        0deg,
+        rgba(166, 234, 235, 1) 0%,
+        rgba(230, 125, 247, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6eaeb",endColorstr="#e67df7",GradientType=1);
 }
+.navbarlinks {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbarlinks:hover {
+    text-decoration: underline;
+}
+
 .header {
     margin-top: 100px;
-    background-image: url("../public/assets/images/havuz-üstten-görünüm.jpg");
+    background-image: url("../public/assets/images/hotel-lila.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

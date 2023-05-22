@@ -21,7 +21,7 @@ function App() {
                     className="header"
                     justify="flex-start"
                     spacing="xs"
-                    h={900}
+                    h={1100}
                     sx={(theme) => ({
                         backgroundColor:
                             theme.colorScheme === "dark"

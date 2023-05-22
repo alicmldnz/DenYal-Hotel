@@ -26,11 +26,21 @@ function MenuBar() {
                         direction="row"
                         wrap="wrap"
                     >
-                        <Link to="/">Ana Sayfa</Link>
-                        <Link to="/Odalar">Odalar</Link>
-                        <Link to="/SpaFitness">Spa & Fitness</Link>
-                        <Link to="/Kurumsal">Kurumsal</Link>
-                        <Link to="/Iletisim">İletişim</Link>
+                        <Link className="navbarlinks" to="/">
+                            Ana Sayfa
+                        </Link>
+                        <Link className="navbarlinks" to="/Odalar">
+                            Odalar
+                        </Link>
+                        <Link className="navbarlinks" to="/SpaFitness">
+                            Spa & Fitness
+                        </Link>
+                        <Link className="navbarlinks" to="/Kurumsal">
+                            Kurumsal
+                        </Link>
+                        <Link className="navbarlinks" to="/Iletisim">
+                            İletişim
+                        </Link>
                     </Flex>
                 </Grid.Col>
                 <Grid.Col span={2}>
