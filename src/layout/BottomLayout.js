@@ -4,12 +4,10 @@ import { Grid, Stack, Container } from "@mantine/core";
 function BottomLayout() {
     return (
         <Stack
+            className="bottomlayout"
             justify="flex-start"
             spacing="xs"
             h={600}
-            sx={(theme) => ({
-                backgroundColor: theme.colors.dark[3],
-            })}
         >
             <Container size="xl" px="lg">
                 <h1>Bize Ulaşın</h1>

@@ -67,23 +67,23 @@
     position: fixed;
     width: -webkit-fill-available;
     top: 0px;
-    background: rgb(166, 234, 235);
+    background: rgb(242, 210, 247);
     background: -moz-linear-gradient(
         0deg,
-        rgba(166, 234, 235, 1) 0%,
-        rgba(230, 125, 247, 1) 100%
+        rgba(242, 210, 247, 1) 0%,
+        rgba(186, 239, 240, 1) 100%
     );
     background: -webkit-linear-gradient(
         0deg,
-        rgba(166, 234, 235, 1) 0%,
-        rgba(230, 125, 247, 1) 100%
+        rgba(242, 210, 247, 1) 0%,
+        rgba(186, 239, 240, 1) 100%
     );
     background: linear-gradient(
         0deg,
-        rgba(166, 234, 235, 1) 0%,
-        rgba(230, 125, 247, 1) 100%
+        rgba(242, 210, 247, 1) 0%,
+        rgba(186, 239, 240, 1) 100%
     );
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a6eaeb",endColorstr="#e67df7",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2d2f7",endColorstr="#baeff0",GradientType=1);
 }
 .navbarlinks {
     color: #fff;
@@ -132,4 +132,23 @@
 }
 .hizmetler-metin {
     padding-bottom: 30px;
+}
+.bottomlayout {
+    background: rgb(186, 239, 240);
+    background: -moz-linear-gradient(
+        0deg,
+        rgba(186, 239, 240, 1) 0%,
+        rgba(242, 210, 247, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        0deg,
+        rgba(186, 239, 240, 1) 0%,
+        rgba(242, 210, 247, 1) 100%
+    );
+    background: linear-gradient(
+        0deg,
+        rgba(186, 239, 240, 1) 0%,
+        rgba(242, 210, 247, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#baeff0",endColorstr="#f2d2f7",GradientType=1);
 }
