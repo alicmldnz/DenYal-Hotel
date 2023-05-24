@@ -95,7 +95,7 @@
 }
 
 .header {
-    margin-top: 100px;
+    margin-top: 75px;
     background-image: url("../public/assets/images/hotel-lila.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,4 +151,7 @@
         rgba(242, 210, 247, 1) 100%
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#baeff0",endColorstr="#f2d2f7",GradientType=1);
+}
+.inputs {
+    width: 500px;
 }

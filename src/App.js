@@ -1,9 +1,6 @@
 import "./App.css";
-import { useDisclosure } from "@mantine/hooks";
 import {
     Center,
-    Modal,
-    Group,
     Stack,
     Grid,
     Container,
@@ -17,7 +14,6 @@ import { DatePicker } from "antd";
 const { RangePicker } = DatePicker;
 
 function App() {
-    const [opened, { open, close }] = useDisclosure(false);
     return (
         <div>
             <MainLayout>
@@ -43,18 +39,6 @@ function App() {
                             Hemen Başla
                         </Button>
                     </Center>
-                    <Modal
-                        opened={opened}
-                        onClose={close}
-                        title="Authentication"
-                        centered
-                    >
-                        {/* Modal content */}
-                    </Modal>
-
-                    <Group position="center">
-                        <Button onClick={open}>Open centered Modal</Button>
-                    </Group>
                 </Stack>
                 <Stack
                     justify="flex-start"

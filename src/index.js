@@ -9,6 +9,11 @@ import Odalar from "./pages/Odalar";
 import Kurumsal from "./pages/Kurumsal";
 import Iletisim from "./pages/Iletisim";
 import SpaFitness from "./pages/SpaFitness";
+import GirisYap from "./pages/GirisYap";
+import KayıtOl from "./pages/KayıtOl";
+import KullanıcıEkle from "./pages/KullanıcıEkle";
+import OdaEkle from "./pages/OdaEkle";
+import RezervasyonEkle from "./pages/RezervasyonEkle";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +35,26 @@ const router = createBrowserRouter([
     {
         path: "SpaFitness",
         element: <SpaFitness />,
+    },
+    {
+        path: "GirisYap",
+        element: <GirisYap />,
+    },
+    {
+        path: "KayıtOl",
+        element: <KayıtOl />,
+    },
+    {
+        path: "RezervasyonEkle",
+        element: <RezervasyonEkle />,
+    },
+    {
+        path: "OdaEkle",
+        element: <OdaEkle />,
+    },
+    {
+        path: "KullanıcıEkle",
+        element: <KullanıcıEkle />,
     },
 ]);
 
