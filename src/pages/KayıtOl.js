@@ -5,6 +5,7 @@ import { Input, Stack, Flex, Container } from "@mantine/core";
 import { IconAt } from "@tabler/icons-react";
 import { PasswordInput, Button } from "@mantine/core";
 import { useId } from "@mantine/hooks";
+import "../App.css";
 
 function KayıtOl() {
     const [value, setValue] = useState("");
@@ -36,7 +37,7 @@ function KayıtOl() {
 
                         <Input.Wrapper id={id} label="Adı">
                             <Input
-                                style={{ width: "500px" }}
+                                className="inputs"
                                 size="lg"
                                 id={id}
                                 placeholder="Adınızı giriniz"
@@ -44,14 +45,14 @@ function KayıtOl() {
                         </Input.Wrapper>
                         <Input.Wrapper id={id} label="Soyadı:">
                             <Input
-                                style={{ width: "500px" }}
+                                className="inputs"
                                 size="lg"
                                 id={id}
                                 placeholder="Soyadınızı giriniz"
                             />
                         </Input.Wrapper>
                         <Input
-                            style={{ width: "500px" }}
+                            className="inputs"
                             size="lg"
                             icon={<IconAt />}
                             placeholder="E-Mailinizi giriniz"
@@ -59,8 +60,8 @@ function KayıtOl() {
                         />
 
                         <PasswordInput
+                            className="inputs"
                             placeholder="Şifrenizi giriniz"
-                            style={{ width: "500px" }}
                             size="lg"
                             value={value}
                             onChange={(event) =>

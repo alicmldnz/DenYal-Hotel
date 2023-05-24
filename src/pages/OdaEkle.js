@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import MainLayout from "../layout/MainLayout";
 import {
     Input,
@@ -11,13 +10,9 @@ import {
 } from "@mantine/core";
 
 import { useId } from "@mantine/hooks";
-import { NativeSelect } from "@mantine/core";
 import "../App.css";
-import { DatePicker } from "antd";
-const { RangePicker } = DatePicker;
 
 function OdaEkle() {
-    const [value, setValue] = useState("");
     const id = useId();
     return (
         <MainLayout>
